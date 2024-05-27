@@ -1,0 +1,223 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(230, 71, 28) !important;
+    width: 15%;
+    height: 65%;
+    float: left;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    position: fixed;
+}
+
+.container h1{
+
+  color: aliceblue;
+  padding: 15px 5px 10px;
+}
+
+ .container ul {
+   list-style: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+ }
+
+ .container a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 8px 10px;
+    text-decoration: none;
+ }
+ .container a:hover {
+    background-color: #111;
+ }
+
+ .document{
+    width: 83%;
+    height: 100%;
+    float: right;
+    margin: 0;
+    padding: 20px 20px 30px 20px;
+ }
+
+ .document h1{
+  font-size: 35px;
+  color: #111;
+ }
+
+ .document h2{
+    color: rgb(230, 71, 28);
+    font-style: bold;
+ }
+
+ .image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .image img {
+    width: 100%;
+  }
+
+  #person {
+    background-color: rgba(232, 236, 239, 0.868);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .profile-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 20px;
+  }
+  .profile-card person {
+    width: 100%;
+  }
+
+  .title {
+    color: grey;
+  }
+
+
+  * {
+   box-sizing: border-box;
+ }
+ 
+ .columns {
+   float: left;
+   width: 50%;
+   padding: 8px;
+ }
+
+ .price {
+   list-style-type: none;
+   border: 1px solid #eee;
+   margin: 0;
+   padding: 0;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+ }
+ .price .basic {
+   background-color: #5d5959;
+   color: white;
+   font-size: 25px;
+ }
+ .price .pro {
+   background-color: #fc4343;
+   color: white;
+   font-size: 25px;
+ }
+ .price li {
+   border-bottom: 1px solid #eee;
+   padding: 20px;
+   text-align: center;
+ }
+
+
+ .button {
+   background-color: #ed2323 ;
+   border: none;
+   color: white;
+   padding: 10px 25px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 18px;
+ }
+ .button:hover {
+  background-color: #f88888;
+ }
+
+ .contact{
+   width: 100%;
+   height: 100%;
+   float: right;
+   margin: 0;
+   padding: 20px;
+ }
+
+ input{
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+ }
+
+ .send-sms{
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   background-color: #e42323;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+.send-sms:hover{
+  background-color: #ce4c4c;
+}
+
+
+ .document hr{
+   background-color: #ed3030;
+   border-radius: 5px;
+   border-color: #ed3030;
+   margin-bottom: 25px;
+ }
+
+ .add-sub{
+  display: grid;
+  grid-gap: 10px;
+  display: flex;
+  justify-content: center;
+
+ }
+ .column {
+  flex-direction: column;
+}
+
+ .add-sub button{
+  margin-top: 25px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #ffffff;
+ }
+
+ .add-sub h2{
+  color: #111;
+ }
+ code{
+  color: gray !important;
+ }
+
+ .foot{
+  display: flex;
+  background-color: rgb(173, 171, 171);
+  width: 100%;
+  height: 50px;
+ }
+
+ .foot name{
+  text-align: center;
+  color: #a03737;
+ }
+
+
+.wish{
+  position: flex-center;
+  margin: 5px 0 5px 0;
+  color: #5d5959;
+}
+

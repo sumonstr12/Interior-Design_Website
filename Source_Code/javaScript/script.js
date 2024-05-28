@@ -12,7 +12,7 @@ document.getElementById("countingb").innerText = datab;
 let nump = 1;   //assign value for selecting room number
 document.getElementById("roomp").innerText = nump;
 function incrementp() {
-	datap = datap *2;
+	datap = datap + 299;
     nump = nump +1;
 	document.getElementById("countingp").innerText = datap;
     document.getElementById("roomp").innerText = nump;
@@ -20,7 +20,7 @@ function incrementp() {
 //creation of decrement function for pro-plan
 function decrementp() {
 	if(datap/2>=299){
-        datap = datap /2;
+        datap = datap -299;
         nump = nump -1;
         document.getElementById("countingp").innerText = datap;
         document.getElementById("roomp").innerText = nump;
@@ -32,7 +32,7 @@ document.getElementById("roomb").innerText = numb;
 
 //creation of increment function for basic-plan
 function incrementb() {
-    datab = datab *2;
+    datab = datab +199;
     numb = numb +1;
     document.getElementById("countingb").innerText = datab;
     document.getElementById("roomb").innerText = numb;
@@ -40,7 +40,7 @@ function incrementb() {
 //creation of decrement function for basic-plan
 function decrementb() {
     if(datab/2>=199){
-        datab = datab/2;
+        datab = datab -199;
         document.getElementById("countingb").innerText = datab;
         numb = numb -1;
         document.getElementById("roomb").innerText = numb;

@@ -20,6 +20,7 @@ i am followed some steps.
 
 `index.html` is the main file html file.
 opening this file the website launch automatically.
+preview : `https://interior-design-website-12.netlify.app/`
 
 ## About me :
 
